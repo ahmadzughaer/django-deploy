@@ -1,0 +1,28 @@
+function validateform(){
+var fname=document.registration.fname.value;
+var lname=document.registration.lname.value;
+var email=document.registration.Email.value;
+var password=document.registration.password.value;
+var cpassword=document.registration.cpassword.value;
+
+  if (fname==null || fname==""){
+  alert("First Name can't be Empty");
+  return false;
+  }
+  if (lname==null || lname==""){
+  alert("Last Name can't be Empty");
+  return false;
+  }
+  if (Email==null || Email==""){
+  alert("Email can't be Empty");
+  return false;
+  }
+  if (password.length<8){
+  alert("Password must be at least 8 characters long.");
+  return false;
+  }
+  if (password!==cpassword){
+  alert("Password must be same!");
+  return false;
+  }
+}

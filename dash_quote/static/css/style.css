@@ -1,0 +1,22 @@
+    body {
+            text-align: center;
+        }
+    .login_form {
+            display: inline-block;
+            width: 400px;
+            height: 400px;
+            margin-top: 200px;
+        }
+
+    .reg_form {
+          display: inline-block;
+           width: 500px;
+           height: 500px;
+           margin-top: 200px;
+    }
+    .main_nav {
+    display: inline-flex;
+    }
+    .main_nav a {
+    float: left;
+    }
